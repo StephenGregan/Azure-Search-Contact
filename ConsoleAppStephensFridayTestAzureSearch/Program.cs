@@ -11,8 +11,8 @@ namespace ConsoleAppStephensFridayTestAzureSearch
     {
         static void Main(string[] args)
         {
-            string serviceName = "";
-            string apiKey = "";
+            string serviceName = "ronansearch";
+            string apiKey = "C74A4DF767BBDD55D0CCED203FC0B0E9";
 
             SearchServiceClient searchClientApi = Helper.Initialize(serviceName, apiKey);
             ISearchIndexClient indexClientApi = searchClientApi.Indexes.GetClient(Helper.IndexName);
@@ -36,9 +36,6 @@ namespace ConsoleAppStephensFridayTestAzureSearch
             List<string> facets = new List<string>();
             facets.Add("Category");
             Console.ReadLine();
-
-
-
         }
     }
 }

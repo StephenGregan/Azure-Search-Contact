@@ -26,15 +26,15 @@ namespace ConsoleAppStephensFridayTestAzureSearch
                 Name = IndexName,
                 Fields = new[]
                 {
-                    new Field("Id", DataType.String)                                              { IsKey = true},
-                    new Field("Id", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
-                    new Field("Id", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
-                    new Field("Id", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
-                    new Field("Id", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
-                    new Field("Id", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
-                    new Field("Id", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
-                    new Field("Id", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
-                    new Field("Id", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
+                    new Field("id", DataType.String)                                              { IsKey = true},
+                    new Field("versionValue", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
+                    new Field("uuid", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
+                    new Field("createdBy", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
+                    new Field("createdDate", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
+                    new Field("lastModifiedBy", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
+                    new Field("lastModifiedDate", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
+                    new Field("companid", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
+                    new Field("name", DataType.String)                                              { IsSearchable = true, IsFacetable = true, IsRetrievable = true},
 
 
                 }
