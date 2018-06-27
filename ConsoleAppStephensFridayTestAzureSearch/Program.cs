@@ -11,8 +11,8 @@ namespace ConsoleAppStephensFridayTestAzureSearch
     {
         static void Main(string[] args)
         {
-            string serviceName = "ronansearch";
-            string apiKey = "C74A4DF767BBDD55D0CCED203FC0B0E9";
+            string serviceName = "[Search Service Name]";
+            string apiKey = "[Search Service Api Key]";
 
             SearchServiceClient searchClientApi = Helper.Initialize(serviceName, apiKey);
             ISearchIndexClient indexClientApi = searchClientApi.Indexes.GetClient(Helper.IndexName);
